@@ -16,8 +16,8 @@ function Products() {
   return (
     <>
       <NavTop/>
-      <h1>Hi this is the Products page</h1>
-      {testingList.map((val) => {
+      {/* <h1>Hi this is the Products page</h1> */}
+      {/* {testingList.map((val) => {
         return (
           <>
             <section className="t-list">
@@ -26,7 +26,24 @@ function Products() {
             </section>
           </>
         );
-      })}
+      })} */}
+      {/* //! TEST */}
+      <div className="scroll-container">
+      <h1>Sunglasses</h1>
+        <section className='productsList'>
+          {testingList.map((val) => {
+           return (
+              <>
+                <section className="t-list">
+                  <img src={val.image} className="img" alt="IMG..." />
+                  <h1>{val.img_id}</h1>
+                 </section>
+              </>
+            );
+          })}
+        </section>
+      </div>
+      {/*//! TEST */}
     </>
   )
 }
