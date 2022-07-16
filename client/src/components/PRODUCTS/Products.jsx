@@ -7,6 +7,7 @@ import Axios from "axios";
 function Products() {
 
   const [testingList, setTestList] = useState([]);
+  const [queryList, setQueryList] = useState("");
 
   useEffect(() => {
     Axios.get("http://localhost:3001/api/get").then((response) => {
@@ -16,6 +17,7 @@ function Products() {
   return (
     <>
       <NavTop/>
+      <input  className="searchBar" type="search" placeholder="SEARCH" onChange={(e) => setQueryList(e.target.value)} />
       {/* <h1>Hi this is the Products page</h1> */}
       {/* {testingList.map((val) => {
         return (
@@ -31,12 +33,15 @@ function Products() {
       <div className="scroll-container">
       <h1>Sunglasses</h1>
         <section className='productsList'>
-          {testingList.map((val) => {
+          {testingList.filter((val) => {
+            return val.imgname.toLowerCase().includes(queryList)
+          }).map((val) => {
            return (
               <>
                 <section className="t-list">
                   <img src={val.image} className="img" alt="IMG..." />
-                  <h1>{val.img_id}</h1>
+                  <h1>{val.imgname}</h1>
+                  <p>{val.img_id}</p>
                  </section>
               </>
             );
