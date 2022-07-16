@@ -1,0 +1,61 @@
+/** ----------------------------------------ImgSlider START------------------------------------------------ */
+.slider{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: auto;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.back-arrow{
+    position: absolute;
+    top: 50%;
+    left: 10rem;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.forward-arrow{
+    position: absolute;
+    top: 50%;
+    right: 10rem;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.back-arrow:hover{
+    border-right: 3.5px solid black;
+    transition-duration: 300ms;
+    transform: translate(-7px);
+}
+
+.forward-arrow:hover{
+    border-left: 3.5px solid black;
+    transition-duration: 300ms;
+    transform: translate(7px);
+}
+
+.slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active{
+    opacity: 1;
+    transition-duration: 1s ease;
+}
+/** ----------------------------------------ImgSlider END------------------------------------------------ */
+
+

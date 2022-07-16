@@ -1,0 +1,78 @@
+/** ----------------------------------------Navigation START------------------------------------------------ */
+.nav_Links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .nav_Links {
+    list-style: none;
+  }
+  
+  .link1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    max-height: 0;
+  }
+  
+  .link1:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    transition-duration: 300ms;
+    transform: translate(5px, 5px);
+  }
+  .linkMid {
+    position: absolute;
+    top: 24px;
+    margin: 15px;
+    font-size: 25px;
+    cursor: default;
+  }
+  
+  .link2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+  }
+  
+  .link2:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    transition-duration: 300ms;
+    transform: translate(-5px, 5px);
+  }
+  
+  .link3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+  }
+  
+  .link3:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    transition-duration: 300ms;
+    transform: translate(5px, -5px);
+  }
+  
+  .link4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+  }
+  
+  .link4:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    transition-duration: 300ms;
+    transform: translate(-5px, -5px);
+  }
+   /** ----------------------------------------Navigation END------------------------------------------------ */

@@ -1,0 +1,16 @@
+/** ----------------------------------------About START------------------------------------------------ */
+.aboutMid{
+    display: flex;
+    position: fixed;
+    top: 24%;
+    left: 20%;
+    border: 2.5px solid black;
+    margin-right: 18rem;
+    height: 50vh;
+}
+
+.aboutMid p{
+    font-size: 15px;
+    padding: 30px;
+}
+/** ----------------------------------------About END------------------------------------------------ */
