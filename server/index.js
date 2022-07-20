@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/api/get", (req, res) => {
-  const sqlSelect = "SELECT * FROM test_img";
+  const sqlSelect = "SELECT * FROM sunglasses";
   db.query(sqlSelect, (err, results) => {
     res.send(results);
   });

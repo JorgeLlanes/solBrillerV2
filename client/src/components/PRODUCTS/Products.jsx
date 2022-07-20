@@ -39,15 +39,15 @@ function Products() {
       <h1>Sunglasses</h1>
         <section className='productsList'>
           {testingList.filter((val) => {
-            return val.imgname.toLowerCase().includes(queryList)
+            return val.productname.toLowerCase().includes(queryList)
           }).map((val) => {
            return (
               <>
                 <section className="t-list">
                   <img src={val.image} className="img" alt="IMG..." />
-                  <h1>{val.imgname}</h1>
-                  <p className="productColorWay">Hellz / Graphite</p>
-                  <p className="productPrice">${val.img_id}</p>
+                  <h1>{val.productname}</h1>
+                  <p className="productColorWay">{val.productcolor}</p>
+                  <p className="productPrice">${val.productprice}</p>
                   <button className="productBtn">ADD TO CART</button>
                  </section>
               </>
