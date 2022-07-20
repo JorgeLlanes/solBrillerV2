@@ -1,0 +1,8 @@
+.testing{
+    color: bisque;
+    width: 100%;
+    height: 100vh;
+    /* background-image: url("../../img/bg2.jpeg"); */
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../../img/bg2.jpeg");
+}
+

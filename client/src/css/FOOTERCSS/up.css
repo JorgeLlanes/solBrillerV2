@@ -25,6 +25,7 @@
     background-color: transparent;
     transition-duration: 1s;
     transition-property: transform;
+    cursor: pointer;
 }
 
 .upBtn:hover{

@@ -14,7 +14,7 @@ const UpBox = () => {
               
             return document.getElementById("subscribed").innerHTML = "* SUBSCRIBED *"
           } else if(input.value === "") {
-            return alert("Invalid input: Please enter a Task");
+            return alert("Invalid input: Please enter a Email (Ex: Email@example.com)");
           }  
     }
      // Email Function in Footer

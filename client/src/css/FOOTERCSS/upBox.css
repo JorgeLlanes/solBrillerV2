@@ -87,7 +87,8 @@ font-family: 'VT323', monospace; */
  } */
  .icon-links:hover{
     transition-duration: 400ms;
-     transform: translate(0px, -10px);
+    transform: translate(0px, -10px);
+
  }
  
 /** --------------Icons Footer END-------------- */
@@ -120,6 +121,7 @@ font-family: 'VT323', monospace; */
      font-size: 20px;
      margin-left: 5px;
      margin-top: 15px;
+    cursor: pointer;
   }
  
   .email_Submit:hover{

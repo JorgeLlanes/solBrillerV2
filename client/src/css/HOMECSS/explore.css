@@ -1,0 +1,18 @@
+.exploreBtn{
+    position: fixed;
+    top: 89%;
+    font-size: 25px;
+    background-color: rgb(172, 172, 172);
+    /* border: none; */
+    width: 8%;
+    cursor: pointer;
+}
+
+.exploreBtn:hover{
+    color: #0a937a;
+    font-family: 'VT323', monospace; 
+    font-size: 35px;
+    width: 8%;
+    border: 2.5px solid rgb(172, 172, 172);
+    background-color: rgba(65, 19, 19, 0.943);
+}

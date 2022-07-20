@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { SliderData } from "./SliderData"
 import {IoArrowBackSharp, IoArrowForwardSharp} from "react-icons/io5";
+import Explore from './Explore'
 
 const ImageSlider = ({ slides }) => {
     const [current,setCurrent] = useState(0);
@@ -19,6 +20,7 @@ const ImageSlider = ({ slides }) => {
     }
 
     return (
+        <>
         <section className="slider">
             <IoArrowBackSharp className="back-arrow" onClick={prevSlide}/>
             <IoArrowForwardSharp className="forward-arrow" onClick={nextSlide}/>
@@ -31,7 +33,10 @@ const ImageSlider = ({ slides }) => {
                 )
                 
             })}
-        </section>  
+            <Explore/>  
+        </section>
+
+        </>
     )
 }
 

@@ -2,10 +2,12 @@ import React from 'react'
 import NavTop from '../HOME/NavTop'
 import Up from '../FOOTER/Up'
 import UpBox from '../FOOTER/UpBox'
+import "../../css/CONTACTCSS/contact.css"
 
 function Contact() {
   return (
     <>
+    <div className="testing">
       <NavTop/>
         <Up>
           <UpBox/>
@@ -18,6 +20,7 @@ function Contact() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sunt tenetur ratione beatae ad nesciunt! 
           Praesentium aliquid reiciendis accusamus in nihil itaque ad recusandae quidem sapiente. Neque vero soluta temporibus.
         </p>
+    </div>
     </>
   )
 }
