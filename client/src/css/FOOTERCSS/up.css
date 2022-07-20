@@ -1,0 +1,36 @@
+/** ----------------------------------------Footer Animation START------------------------------------------------ */
+
+.upDiv{
+    background-color: rgba(65, 19, 19, 0.943);
+    color: #0a937a;
+    font-weight: bolder;
+    width: 100%;
+    margin-top: 825px;
+    position: fixed;
+    opacity: 10;
+    transition-property: margin-top, opacity;
+    transition-duration: 2s;
+    z-index: 15;
+}
+
+
+
+.upBtn{
+    position: absolute;
+    color: #0a937a;
+    top: 93%;
+    left: 49%;
+    border: none;
+    font-size: 25px;
+    background-color: transparent;
+    transition-duration: 1s;
+    transition-property: transform;
+}
+
+.upBtn:hover{
+    transform: rotate(45deg);
+    /* -webkit-transform: rotate(360deg); */
+}
+
+/** ----------------------------------------Footer Animation END------------------------------------------------ */
+

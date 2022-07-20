@@ -2,6 +2,8 @@
 import NavTop from '../HOME/NavTop'
 import React, { useState, useEffect } from "react";
 import Axios from "axios";
+import Up from "../FOOTER/Up"
+import UpBox from '../FOOTER/UpBox';
 
 
 function Products() {
@@ -30,6 +32,9 @@ function Products() {
         );
       })} */}
       {/* //! TEST */}
+          <Up>
+            <UpBox/>
+          </Up>
       <div className="scroll-container">
       <h1>Sunglasses</h1>
         <section className='productsList'>
@@ -41,7 +46,9 @@ function Products() {
                 <section className="t-list">
                   <img src={val.image} className="img" alt="IMG..." />
                   <h1>{val.imgname}</h1>
-                  <p>{val.img_id}</p>
+                  <p className="productColorWay">Hellz / Graphite</p>
+                  <p className="productPrice">${val.img_id}</p>
+                  <button className="productBtn">ADD TO CART</button>
                  </section>
               </>
             );

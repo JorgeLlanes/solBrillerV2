@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    margin-bottom: 35px;
 }
 .img{
     width: 10rem;
@@ -11,26 +12,27 @@
     margin: 5px;
 }
 .scroll-container h1{
+    background-color: transparent;
     font-size: 30px;
     text-align: center;
     margin-top: 28px;
-    color: #921D1B;
+    color: bisque;
     margin-bottom: 15px;
 }
 .scroll-container{
     max-width: 80%;
-    background-color: rgb(246, 212, 161);
+    background-color: rgb(65, 19, 19);
     margin: 0 auto;
     margin-top: 165px;
     height: 520px;
     overflow:scroll;
     overflow-x:hidden;
     border-radius: 5px;
-    border: 3.5px solid #921D1B;
+    border: 3.5px solid #0a937a;
 }
 
 .productsList{
-    background-color: rgb(246, 212, 161);
+    background-color: rgba(65, 19, 19, 0.943);
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
@@ -38,13 +40,44 @@
 
 }
 
+/** -------     --------------Product Btn Start----------------------------- */
+
+
+.productBtn{
+    background-color: transparent;
+    border: none;
+    font-size: 15px;;
+    color: bisque;
+    border-bottom: 2.1px solid bisque;
+    margin-top: 10px;
+    /* margin-bottom: 25px; */
+}
+.productBtn:hover {
+    border-bottom: 2.1px solid #0a937a;
+
+}
+.productPrice{
+    /* color: #6D5559; */
+    color: #968ac5;
+    margin-top: 10px;
+}
+.productColorWay{
+    color: rgb(255, 255, 255);
+}
+
+/** --------------------------Product Btn END-------------------------------- */
+
+
+
 .searchBar{
+    background-color: transparent;
     position: absolute;
     height: 3.5vh;
     width: 7.5%;
     top: 8rem;
     left: 80%;
     border: none;
+    color: #970003;
     border-bottom: 2.1px solid black;
     padding-left: 5px;
     font-size: 15px;
@@ -52,11 +85,20 @@
     outline: none;
 }
 .searchBar:hover{
-    border-bottom: 2.1px solid #921D1B;
+    border-bottom: 2.1px solid #0a937a;
 }
 .searchBar::placeholder{
-    color: Black;
+    color: #970003;
 }
+
+/* input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: url() no-repeat 50% 50%;
+  } */
+
 
 
 /** ----------------------------------------Products END------------------------------------------------ */

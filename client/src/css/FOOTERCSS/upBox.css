@@ -1,0 +1,143 @@
+/** Fonts */
+/* font-family: 'Blaka', cursive;
+font-family: 'DotGothic16', sans-serif;
+font-family: 'Pirata One', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'VT323', monospace; */
+/** Fonts */
+
+/** ----------------------------------------Main Footer START------------------------------------------------ */
+.footer{
+   display: flex;
+   justify-content:space-around;
+   height: 300px;
+   margin-bottom: -33px;
+ }
+ 
+/** -----------Address/Location Footer START----------- */
+
+ .solAddress{
+   text-align: center;
+   margin-top: 45px;
+ }
+ .solAddress h1, address{
+   margin-bottom:28px;
+ }
+
+ .solAddress p{
+   margin-top: 20px;
+ }
+/** ----------Address/Location Footer END-------------- */
+
+
+ 
+/** --------------Main h1 Footer START--------- */
+ .main-h1{
+   position: absolute;
+   color: rgb(255, 246, 235);
+   margin-top: 5vh;
+   font-size: 80px;
+   font-weight: bold;
+   font-family: 'Roboto Mono', monospace;
+ 
+ }
+
+ .main-h1:hover span{
+   display: none;
+ } 
+ 
+ .main-h1:hover:after{
+   letter-spacing: 10px;
+   font-family: 'DotGothic16', sans-serif;
+   content: "<JORGE>";
+ }
+
+/** --------------Main h1 Footer END----------- */
+
+
+/** --------------Icons Footer START----------- */
+
+ .icons{
+   margin-right: 70px;
+   width: 20%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 26vh;
+   font-size: 25px;
+   
+}
+ 
+ .icon-links{
+   color: #ad6363;
+ }
+
+ /* #facebook{
+   color: #1877F2;
+ }
+ #instagram{
+   color: #ad7676;
+ }
+ #twitter{
+   color: #0F9AFB;
+ }
+ #github{
+   color: rgb(212, 212, 212);
+ } */
+ .icon-links:hover{
+    transition-duration: 400ms;
+     transform: translate(0px, -10px);
+ }
+ 
+/** --------------Icons Footer END-------------- */
+
+ 
+
+
+
+
+
+/** --------------Email BTN START--------------- */
+   .solAddress input{
+   font-size: 15px;
+   color: bisque;
+   background-color: transparent;
+   height: 24px;
+   border: none;
+   border-bottom: 2.1px solid rgb(255, 246, 235);
+   outline: none;
+   }
+
+   .solAddress input::placeholder{
+      color: bisque;
+   }
+ 
+  .email_Submit{
+     background-color: transparent;
+     color: rgb(255, 246, 235);
+     border: none;
+     font-size: 20px;
+     margin-left: 5px;
+     margin-top: 15px;
+  }
+ 
+  .email_Submit:hover{
+   color: bisque;
+   border-bottom: 2.1px solid rgb(255, 246, 235);
+  }
+
+/** --------------Email BTN END----------------- */
+
+
+/** --------------BTN p Function Start---------- */
+  #subscribed{
+   margin-left: 5px;
+   margin-top: 30px;
+
+}
+/** --------------BTN p Function Start---------- */
+
+
+
+/** ----------------------------------------Main Footer END------------------------------------------------ */

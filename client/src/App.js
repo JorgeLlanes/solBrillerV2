@@ -4,6 +4,7 @@ import "./css/HOMECSS/navTop.css";
 import "./css/HOMECSS/imgSlider.css";
 import "./css/ABOUTCSS/about.css";
 import "./css/PRODUCTSCSS/products.css";
+import "./css/FOOTERCSS/upBox.css";
 import NavTop from "./components/HOME/NavTop";
 import ImgSlider from "./components/HOME/ImgSlider";
 import About from "./components/ABOUT/About";

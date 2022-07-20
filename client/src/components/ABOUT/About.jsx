@@ -1,6 +1,8 @@
 import React from 'react'
 import NavTop from '../HOME/NavTop'
 import vid2 from '../../img/vid2.mp4'
+import UpBox from '../FOOTER/UpBox'
+import Up from '../FOOTER/Up'
 
 
 function About() {
@@ -21,6 +23,9 @@ function About() {
           temporibus vitae hic nisi modi soluta fuga ullam mollitia doloremque dignissimos blanditiis.
         </p>
      </section>
+     <Up>
+        <UpBox/>
+    </Up>
     
     </>
   )
