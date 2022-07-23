@@ -40,8 +40,7 @@
 
 }
 
-/** -------     --------------Product Btn Start----------------------------- */
-
+/** -------------------------Product Btn Start----------------------------- */
 
 .productBtn{
     background-color: transparent;
@@ -99,6 +98,39 @@
     border-radius: 50%;
     background: url() no-repeat 50% 50%;
   } */
+
+.filterBtns{
+    position: absolute;
+    top: 16%;
+    left: 11%;
+    width: 16%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.filterBtns button{
+    font-weight: bolder;
+    color: #970003;
+    cursor: pointer;
+    width: auto;
+    border: none;
+    font-size: 13px;
+    /* border-bottom: 2.1px solid black; */
+    background-color: transparent;
+}
+
+.filterBtns button::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    border-bottom: 2.1px solid #970003;
+    transition: width .3s;
+    font-weight: bolder;
+}
+.filterBtns button:hover::after {
+    width: 100%;
+}
 
 
 

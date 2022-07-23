@@ -31,6 +31,20 @@ app.get("/api/get", (req, res) => {
   });
 });
 
+app.get("/api/get2", (req, res) => {
+  const sqlSelect = "SELECT * FROM sunglasses ORDER BY productprice ASC;";
+  db.query(sqlSelect, (err, results) => {
+    res.send(results);
+  });
+});
+
+app.get("/api/get3", (req, res) => {
+  const sqlSelect = "SELECT * FROM sunglasses ORDER BY productprice DESC;";
+  db.query(sqlSelect, (err, results) => {
+    res.send(results);
+  });
+});
+
 // app.get("/", (req, res) => {
 //   const sqlInsert = "INSERT INTO test_img (img_id,image) VALUES (8,'lol')";
 //   db.query(sqlInsert, (err, result) => {

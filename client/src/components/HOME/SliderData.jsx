@@ -12,9 +12,9 @@ export const SliderData = [
     {
         image: require("../../img/pic_5.jpeg")
     },
-    {
-        image: require("../../img/pic_6.jpeg")
-    },
+    // {
+    //     image: require("../../img/pic_6.jpeg")
+    // },
     {
         image: require("../../img/pic_3.jpg")
     },

@@ -15,10 +15,37 @@ function Products() {
     Axios.get("http://localhost:3001/api/get").then((response) => {
       setTestList(response.data);
     });
-  });
+  },[]);
+
+  const byAsc = () => {
+    Axios.get("http://localhost:3001/api/get2").then((response) => {
+      setTestList(response.data);
+    });
+  };
+
+  const byDesc = () => {
+    Axios.get("http://localhost:3001/api/get3").then((response) => {
+      setTestList(response.data);
+    });
+  };
+
+  const all = () => {
+    Axios.get("http://localhost:3001/api/get").then((response) => {
+      setTestList(response.data);
+    });
+  };
+
+
   return (
     <>
       <NavTop/>
+
+      <div className='filterBtns'>
+        <button type="button" className="" onClick={byAsc}>Low To High</button>
+        <button type="button" className="" onClick={byDesc}>High To Low</button>
+        <button type="button" className="" onClick={all}>All</button>
+      </div>
+
       <input  className="searchBar" type="search" placeholder="SEARCH" onChange={(e) => setQueryList(e.target.value)} />
       {/* <h1>Hi this is the Products page</h1> */}
       {/* {testingList.map((val) => {

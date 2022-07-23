@@ -39,8 +39,8 @@ function Contact() {
             <form action="">
                <input type="text" name="full_name" placeholder="FULL NAME..." required/>
                <input type="email" name="'email" placeholder="EMAIL ADDRESS..." required/>
-               <textarea name="comment" cols="30" rows="10" placeholder="COMMENTS Or CONCERNS..." required></textarea>
-               <button type="submit">SUBMIT</button>
+               <textarea name="comment" cols="30" rows="10" placeholder="COMMENTS / CONCERNS..." required></textarea>
+               <button type="submit">Submit</button>
             </form>
           </div>
       </section>
