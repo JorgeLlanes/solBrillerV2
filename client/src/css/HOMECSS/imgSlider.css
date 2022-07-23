@@ -18,7 +18,7 @@
     top: 50%;
     left: 10rem;
     font-size: 3rem;
-    color: black;
+    color: #970003;
     z-index: 10;
     cursor: pointer;
     user-select: none;
@@ -29,20 +29,20 @@
     top: 50%;
     right: 10rem;
     font-size: 3rem;
-    color: black;
+    color: #970003;
     z-index: 10;
     cursor: pointer;
     user-select: none;
 }
 
 .back-arrow:hover{
-    border-right: 3.5px solid black;
+    border-right: 3.5px solid #970003;
     transition-duration: 300ms;
     transform: translate(-7px);
 }
 
 .forward-arrow:hover{
-    border-left: 3.5px solid black;
+    border-left: 3.5px solid #970003;
     transition-duration: 300ms;
     transform: translate(7px);
 }
