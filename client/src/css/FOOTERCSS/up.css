@@ -35,3 +35,68 @@
 
 /** ----------------------------------------Footer Animation END------------------------------------------------ */
 
+
+@media screen and (width: 912px){
+
+    .upDiv{
+        margin-top: 90rem;
+    }
+
+}
+
+@media screen and (width: 820px){
+
+    .upDiv{
+        margin-top: 75rem;
+    }
+
+}
+
+@media screen and (width: 768px){
+
+    .upDiv{
+        margin-top: 65rem;
+    }
+
+}
+
+@media screen and (width: 414px){
+
+    .upDiv{
+        margin-top: 915px;
+    }
+
+}
+
+@media screen and (width: 412px){
+
+    .upDiv{
+        margin-top: 915px;
+    }
+
+}
+
+@media screen and (width: 393px){
+
+    .upDiv{
+        margin-top: 855px;
+    }
+
+}
+
+@media screen and (width: 390px){
+
+    .upDiv{
+        margin-top: 845px;
+    }
+
+}
+
+
+@media screen and (width: 375px){ 
+    
+    .upDiv{
+        margin-top: 670px;
+    }
+
+}
