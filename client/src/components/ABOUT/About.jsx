@@ -8,7 +8,6 @@ import Up from '../FOOTER/Up'
 function About() {
   return (
     <>
-     {/* <video src={vid2} autoPlay loop muted className='vid2'/> */}
      <NavTop />
      <section className='aboutMid'>
       <video src={vid2} autoPlay loop muted className='vid2'/>
@@ -32,3 +31,8 @@ function About() {
 }
 
 export default About
+
+//! NON-USED
+// <video src={vid2} autoPlay loop muted className='vid2'/>
+//! NON-USED
+

@@ -1,102 +1,86 @@
 /** ----------------------------------------Footer Animation START------------------------------------------------ */
 
-.upDiv{
-    background-color: rgba(65, 19, 19, 0.943);
-    color: #0a937a;
-    font-weight: bolder;
-    width: 100%;
-    margin-top: 825px;
-    position: fixed;
-    opacity: 10;
-    transition-property: margin-top, opacity;
-    transition-duration: 2s;
-    z-index: 15;
+.upDiv {
+  background-color: rgba(65, 19, 19, 0.943);
+  color: #0a937a;
+  font-weight: bolder;
+  width: 100%;
+  margin-top: 825px;
+  position: fixed;
+  opacity: 10;
+  transition-property: margin-top, opacity;
+  transition-duration: 2s;
+  z-index: 15;
 }
 
-
-
-.upBtn{
-    position: absolute;
-    color: #0a937a;
-    top: 93%;
-    left: 49%;
-    border: none;
-    font-size: 25px;
-    background-color: transparent;
-    transition-duration: 1s;
-    transition-property: transform;
-    cursor: pointer;
+.upBtn {
+  position: absolute;
+  color: #0a937a;
+  top: 93%;
+  left: 49%;
+  border: none;
+  font-size: 25px;
+  background-color: transparent;
+  transition-duration: 1s;
+  transition-property: transform;
+  cursor: pointer;
 }
 
-.upBtn:hover{
-    transform: rotate(45deg);
-    /* -webkit-transform: rotate(360deg); */
+.upBtn:hover {
+  transform: rotate(45deg);
+  /* -webkit-transform: rotate(360deg); */
 }
 
 /** ----------------------------------------Footer Animation END------------------------------------------------ */
 
+/** ----------------------------------------@Media Queries START---------------------------------------- */
 
-@media screen and (width: 912px){
-
-    .upDiv{
-        margin-top: 90rem;
-    }
-
+@media screen and (width: 912px) {
+  .upDiv {
+    margin-top: 90rem;
+  }
 }
 
-@media screen and (width: 820px){
-
-    .upDiv{
-        margin-top: 75rem;
-    }
-
+@media screen and (width: 820px) {
+  .upDiv {
+    margin-top: 75rem;
+  }
 }
 
-@media screen and (width: 768px){
-
-    .upDiv{
-        margin-top: 65rem;
-    }
-
+@media screen and (width: 768px) {
+  .upDiv {
+    margin-top: 65rem;
+  }
 }
 
-@media screen and (width: 414px){
-
-    .upDiv{
-        margin-top: 915px;
-    }
-
+@media screen and (width: 414px) {
+  .upDiv {
+    margin-top: 915px;
+  }
 }
 
-@media screen and (width: 412px){
-
-    .upDiv{
-        margin-top: 915px;
-    }
-
+@media screen and (width: 412px) {
+  .upDiv {
+    margin-top: 915px;
+  }
 }
 
-@media screen and (width: 393px){
-
-    .upDiv{
-        margin-top: 855px;
-    }
-
+@media screen and (width: 393px) {
+  .upDiv {
+    margin-top: 855px;
+  }
 }
 
-@media screen and (width: 390px){
-
-    .upDiv{
-        margin-top: 845px;
-    }
-
+@media screen and (width: 390px) {
+  .upDiv {
+    margin-top: 845px;
+  }
 }
 
-
-@media screen and (width: 375px){ 
-    
-    .upDiv{
-        margin-top: 670px;
-    }
-
+@media screen and (width: 375px) {
+  .upDiv {
+    margin-top: 670px;
+  }
 }
+
+/** ----------------------------------------@Media Queries END---------------------------------------- */

@@ -1,117 +1,104 @@
-.exploreBtn{
-    position: fixed;
-    top: 88%;
-    font-size: 26px;
-    color: #970003;
-    font-weight: bolder;
-    background-color: transparent;
-    border: none;
-    /* width: 8vw; */
-    width: auto;
-    cursor: pointer;
-    overflow: hidden;
-    text-overflow: ellipsis;
+/** ----------------------------------------Explore START-------------------------------------- */
 
+.exploreBtn {
+  position: fixed;
+  top: 88%;
+  font-size: 26px;
+  color: #970003;
+  font-weight: bolder;
+  background-color: transparent;
+  border: none;
+  /* width: 8vw; */
+  width: auto;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.exploreBtn:hover{
-    color: #970003;
-    font-size: 26px;
-    font-weight: bolder;
-    /* width: 8%; */
-    width: auto;
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    transition-duration: 300ms;
-    transform: translate(0px, -5px);
+.exploreBtn:hover {
+  color: #970003;
+  font-size: 26px;
+  font-weight: bolder;
+  /* width: 8%; */
+  width: auto;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition-duration: 300ms;
+  transform: translate(0px, -5px);
 }
+
+/** ----------------------------------------Explore END---------------------------------------- */
+
+/** ----------------------------------------@Media Queries START---------------------------------------- */
 
 @media screen and (max-width: 1024px) {
-    .exploreBtn{
-        top: 84%;
-        font-size: 30px;
-  
+  .exploreBtn {
+    top: 84%;
+    font-size: 30px;
   }
-
 }
 
 @media screen and (max-width: 912px) {
-    .exploreBtn{
-        top: 84%;
-        font-size: 45px;
-  
+  .exploreBtn {
+    top: 84%;
+    font-size: 45px;
   }
-
 }
 
 @media screen and (max-width: 820px) {
-    .exploreBtn{
-        top: 83%;
-        font-size: 38px;
-  
+  .exploreBtn {
+    top: 83%;
+    font-size: 38px;
   }
-
 }
 
 @media screen and (max-width: 768px) {
-    .exploreBtn{
-        top: 83%;
-        font-size: 38px;
-  
+  .exploreBtn {
+    top: 83%;
+    font-size: 38px;
   }
-
 }
 
 @media screen and (max-width: 600px) {
-    .exploreBtn{
-        top: 83%;
-        font-size: 26px;
-  
+  .exploreBtn {
+    top: 83%;
+    font-size: 26px;
   }
-
 }
 
 @media screen and (max-width: 540px) {
-    .exploreBtn{
-        top: 83%;
-        font-size: 26px;
-  
+  .exploreBtn {
+    top: 83%;
+    font-size: 26px;
   }
-
 }
 
 @media screen and (max-width: 414px) {
-    .exploreBtn{
-        top: 83%;
-        font-size: 32px;
-  
+  .exploreBtn {
+    top: 83%;
+    font-size: 32px;
   }
-
 }
 
 @media screen and (max-width: 393px) {
-    .exploreBtn{
-        top: 81%;
-        font-size: 32px;
-  
+  .exploreBtn {
+    top: 81%;
+    font-size: 32px;
   }
-
 }
 
 @media screen and (max-width: 390px) {
-    .exploreBtn{
-        top: 81%;
-        font-size: 28px;
-  
+  .exploreBtn {
+    top: 81%;
+    font-size: 28px;
   }
-
 }
 
 @media screen and (max-width: 375px) {
-    .exploreBtn{
-        top: 81%;
-        font-size: 28px;
-  
+  .exploreBtn {
+    top: 81%;
+    font-size: 28px;
   }
-
 }
+
+/** ----------------------------------------@Media Queries END---------------------------------------- */

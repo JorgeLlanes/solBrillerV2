@@ -1,339 +1,313 @@
 /** ----------------------------------------Navigation START------------------------------------------------ */
+
 .nav_Links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: 26px;
-    font-weight: bolder;
-    cursor: pointer;
-    color: #970003;
-  }
-  
-  .nav_Links {
-    list-style: none;
-  }
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 26px;
+  font-weight: bolder;
+  cursor: pointer;
+  color: #970003;
+}
+
+.nav_Links {
+  list-style: none;
+}
+
+.link1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 20px;
+  max-height: 0;
+}
+
+.link1:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  transition-duration: 300ms;
+  transform: translate(5px, 5px);
+}
+.linkMid {
+  position: absolute;
+  top: 24px;
+  margin: 15px;
+  font-size: 38px;
+  cursor: default;
+}
+
+.link2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+}
+
+.link2:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  transition-duration: 300ms;
+  transform: translate(-5px, 5px);
+}
+
+.link3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 20px;
+}
+
+.link3:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  transition-duration: 300ms;
+  transform: translate(5px, -5px);
+}
+
+.link4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+
+.link4:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  transition-duration: 300ms;
+  transform: translate(-5px, -5px);
+}
+
+/** ----------------------------------------Navigation END------------------------------------------------ */
+
+/** ----------------------------------------@Media Queries Start----------------------------------------- */
+
+@media (min-width: 1024px) {
   .link1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 20px;
-    max-height: 0;
-  }
-  
-  .link1:hover {
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    transition-duration: 300ms;
-    transform: translate(5px, 5px);
+    position: fixed;
   }
   .linkMid {
-    position: absolute;
-    top: 24px;
-    margin: 15px;
-    font-size: 38px;
-    cursor: default;
+    position: fixed;
   }
-  
   .link2 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 20px;
+    position: fixed;
   }
-  
-  .link2:hover {
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    transition-duration: 300ms;
-    transform: translate(-5px, 5px);
-  }
-  
   .link3 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin: 20px;
+    position: fixed;
   }
-  
-  .link3:hover {
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    transition-duration: 300ms;
-    transform: translate(5px, -5px);
-  }
-  
   .link4 {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 20px;
-  }
-  
-  .link4:hover {
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    transition-duration: 300ms;
-    transform: translate(-5px, -5px);
-  }
-   /** ----------------------------------------Navigation END------------------------------------------------ */
-
-
-@media (min-width: 1024px){
-  .link1{
-    position: fixed;
-  }
-  .linkMid{
-    position: fixed;
-  }
-  .link2{
-    position: fixed;
-  }
-  .link3{
-    position: fixed;
-  }
-  .link4{
     position: fixed;
   }
 }
 
 @media screen and (max-width: 912px) {
-    .linkMid{
-      top: 120px;
-      font-size: 55px;
-  
+  .linkMid {
+    top: 120px;
+    font-size: 55px;
+  }
+  .nav_Links {
+    font-size: 38px;
+  }
+
+  .link1 {
+    position: fixed;
+  }
+  .linkMid {
+    position: fixed;
+  }
+  .link2 {
+    position: fixed;
+  }
+  .link3 {
+    position: fixed;
+  }
+  .link4 {
+    position: fixed;
+  }
 }
-    .nav_Links{
-      font-size: 38px;
-    }
-
-    .link1{
-      position: fixed;
-    }
-    .linkMid{
-      position: fixed;
-    }
-    .link2{
-      position: fixed;
-    }
-    .link3{
-      position: fixed;
-    }
-    .link4{
-      position: fixed;
-    }
-  
-}
-
-
 
 @media screen and (max-width: 820px) {
-    .linkMid{
-      top: 80px;
-      font-size: 50px;
-  
-}
-    .nav_Links{
-      font-size: 33px;
-    }
-
-    .link1{
-      position: fixed;
-    }
-    .linkMid{
-      position: fixed;
-    }
-    .link2{
-      position: fixed;
-    }
-    .link3{
-      position: fixed;
-    }
-    .link4{
-      position: fixed;
-    }
-  
-}
-
-@media screen and (max-width: 768px) {
-  .linkMid{
+  .linkMid {
     top: 80px;
     font-size: 50px;
-
-}
-  .nav_Links{
+  }
+  .nav_Links {
     font-size: 33px;
   }
 
+  .link1 {
+    position: fixed;
+  }
+  .linkMid {
+    position: fixed;
+  }
+  .link2 {
+    position: fixed;
+  }
+  .link3 {
+    position: fixed;
+  }
+  .link4 {
+    position: fixed;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .linkMid {
+    top: 80px;
+    font-size: 50px;
+  }
+  .nav_Links {
+    font-size: 33px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  .linkMid{
+  .linkMid {
     top: 60px;
     font-size: 35px;
-
-}
-  .nav_Links{
+  }
+  .nav_Links {
     font-size: 20px;
   }
-
 }
 
 @media screen and (max-width: 540px) {
-  .linkMid{
+  .linkMid {
     top: 60px;
     font-size: 35px;
-
-}
-  .nav_Links{
+  }
+  .nav_Links {
     font-size: 20px;
-
+  }
 }
-
-}
-
-
-
 
 @media screen and (max-width: 414px) {
-    .linkMid{
-      top: 75px;
-      font-size: 40px;
-  
+  .linkMid {
+    top: 75px;
+    font-size: 40px;
+  }
+  .nav_Links {
+    font-size: 24px;
+  }
+
+  .link1 {
+    position: fixed;
+  }
+  .linkMid {
+    position: fixed;
+  }
+  .link2 {
+    position: fixed;
+  }
+  .link3 {
+    position: fixed;
+  }
+  .link4 {
+    position: fixed;
+  }
 }
-    .nav_Links{
-      font-size: 24px;
-    }
-
-    .link1{
-      position: fixed;
-    }
-    .linkMid{
-      position: fixed;
-    }
-    .link2{
-      position: fixed;
-    }
-    .link3{
-      position: fixed;
-    }
-    .link4{
-      position: fixed;
-    }
-  
-}
-
-
 
 @media screen and (max-width: 393px) {
-    .linkMid{
-      top: 75px;
-      font-size: 40px;
-  
-}
-    .nav_Links{
-      font-size: 24px;
-    }
+  .linkMid {
+    top: 75px;
+    font-size: 40px;
+  }
+  .nav_Links {
+    font-size: 24px;
+  }
 
-    .link1{
-      position: fixed;
-    }
-    .linkMid{
-      position: fixed;
-    }
-    .link2{
-      position: fixed;
-    }
-    .link3{
-      position: fixed;
-    }
-    .link4{
-      position: fixed;
-    }
-  
+  .link1 {
+    position: fixed;
+  }
+  .linkMid {
+    position: fixed;
+  }
+  .link2 {
+    position: fixed;
+  }
+  .link3 {
+    position: fixed;
+  }
+  .link4 {
+    position: fixed;
+  }
 }
-
 
 @media screen and (max-width: 390px) {
-    .linkMid{
-      top: 75px;
-      font-size: 40px;
-  
+  .linkMid {
+    top: 75px;
+    font-size: 40px;
+  }
+  .nav_Links {
+    font-size: 24px;
+  }
+
+  .link1 {
+    position: fixed;
+  }
+  .linkMid {
+    position: fixed;
+  }
+  .link2 {
+    position: fixed;
+  }
+  .link3 {
+    position: fixed;
+  }
+  .link4 {
+    position: fixed;
+  }
 }
-    .nav_Links{
-      font-size: 24px;
-    }
-
-    .link1{
-      position: fixed;
-    }
-    .linkMid{
-      position: fixed;
-    }
-    .link2{
-      position: fixed;
-    }
-    .link3{
-      position: fixed;
-    }
-    .link4{
-      position: fixed;
-    }
-  
-}
-
-
 
 @media screen and (max-width: 375px) {
-  .linkMid{
+  .linkMid {
     top: 60px;
     font-size: 35px;
-
-}
-  .nav_Links{
+  }
+  .nav_Links {
     font-size: 20px;
   }
-  .link1{
+  .link1 {
     position: fixed;
   }
-  .linkMid{
+  .linkMid {
     position: fixed;
   }
-  .link2{
+  .link2 {
     position: fixed;
   }
-  .link3{
+  .link3 {
     position: fixed;
   }
-  .link4{
+  .link4 {
     position: fixed;
   }
-
 }
 
 @media screen and (max-width: 280px) {
-  .linkMid{
+  .linkMid {
     top: 60px;
     font-size: 35px;
-
-}
-  .nav_Links{
+  }
+  .nav_Links {
     font-size: 20px;
   }
-  .link1{
+  .link1 {
     position: fixed;
   }
-  .linkMid{
+  .linkMid {
     position: fixed;
   }
-  .link2{
+  .link2 {
     position: fixed;
   }
-  .link3{
+  .link3 {
     position: fixed;
   }
-  .link4{
+  .link4 {
     position: fixed;
   }
-
 }
+
+/** ----------------------------------------@Media Queries END----------------------------------------- */

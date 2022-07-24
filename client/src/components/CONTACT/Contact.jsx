@@ -10,17 +10,22 @@ function Contact() {
   return (
     <>
     <div className="testing">
-      
       <NavTop/>
         <Up>
           <UpBox/>
         </Up>
+
         <div className="contactPage-container">
+
+          {/* MAIN h1 */}
           <div className="mainSection">
             <h1 className='firstHeading'><span>CONTACT US</span></h1>
           </div>
+          {/* MAIN h1 */}
 
       <section className="contactSection">
+
+          {/* Location Section */}
           <div className="location">
             <h1>Location</h1>
             <address>
@@ -31,9 +36,15 @@ function Contact() {
             </address>
             <iframe id='map'  title="myFrame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6882.503279281827!2d-97.73387583022462!3d30.400601600000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cc71ec3d3b05%3A0x77c4a76c643f0420!2sThe%20Domain!5e0!3m2!1sen!2sus!4v1658445341429!5m2!1sen!2sus" width="600" height="450"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
-
-          <div className="line"></div>
+          {/* Location Section */}
           
+
+          {/* Middle LINE */}
+          <div className="line"></div>
+          {/* Middle LINE */}
+          
+
+          {/* Submit FORM */}
           <div className="submitForm">
             <h1 className="sfH1">let us know</h1>
             <form action="">
@@ -43,6 +54,9 @@ function Contact() {
                <button type="submit">Submit</button>
             </form>
           </div>
+          {/* Submit FORM */}
+
+
       </section>
 
 
@@ -54,6 +68,7 @@ function Contact() {
 
 export default Contact
 
+//! NON-USED
 // {/* <h1>Hi this is the contact page</h1>
 
 // <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit deleniti laborum nemo sint veniam assumenda delectus 
@@ -61,3 +76,4 @@ export default Contact
 //   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sunt tenetur ratione beatae ad nesciunt! 
 //   Praesentium aliquid reiciendis accusamus in nihil itaque ad recusandae quidem sapiente. Neque vero soluta temporibus.
 // </p> */}
+//! NON-USED

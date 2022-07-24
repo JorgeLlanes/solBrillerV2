@@ -8,15 +8,23 @@ import UpBox from '../FOOTER/UpBox';
 
 function Products() {
 
+  // STATES
   const [testingList, setTestList] = useState([]);
   const [queryList, setQueryList] = useState("");
+  // STATES
 
+
+
+  // Products from MySQL👇🏼
   useEffect(() => {
     Axios.get("http://localhost:3001/api/get").then((response) => {
       setTestList(response.data);
     });
   },[]);
 
+
+
+  // Filter API's
   const byAsc = () => {
     Axios.get("http://localhost:3001/api/get2").then((response) => {
       setTestList(response.data);
@@ -34,34 +42,33 @@ function Products() {
       setTestList(response.data);
     });
   };
+  // Filter API's 
+
 
 
   return (
     <>
       <NavTop/>
 
+    {/* Filter Buttons */}
       <div className='filterBtns'>
         <button type="button" className="" onClick={byAsc}>Low To High</button>
         <button type="button" className="" onClick={byDesc}>High To Low</button>
         <button type="button" className="" onClick={all}>All</button>
       </div>
+    {/* Filter Buttons */}
 
+
+    {/* Search Buttons */}
       <input  className="searchBar" type="search" placeholder="SEARCH" onChange={(e) => setQueryList(e.target.value)} />
-      {/* <h1>Hi this is the Products page</h1> */}
-      {/* {testingList.map((val) => {
-        return (
-          <>
-            <section className="t-list">
-              <img src={val.image} className="img" alt="IMG..." />
-              <h1>{val.img_id}</h1>
-            </section>
-          </>
-        );
-      })} */}
-      {/* //! TEST */}
+    {/* Search Buttons */}
+    
           <Up>
             <UpBox/>
           </Up>
+
+
+    {/* MAGIC MAP ⚡️ Section */}
       <div className="scroll-container">
       <h1>Sunglasses</h1>
         <section className='productsList'>
@@ -82,9 +89,25 @@ function Products() {
           })}
         </section>
       </div>
-      {/*//! TEST */}
+    {/* MAGIC MAP ⚡️ Section */}
+
+
     </>
   )
 }
 
 export default Products
+
+//! NON-USED
+// {/* <h1>Hi this is the Products page</h1> 
+//       {testingList.map((val) => {
+//         return (
+//           <>
+//             <section className="t-list">
+//               <img src={val.image} className="img" alt="IMG..." />
+//               <h1>{val.img_id}</h1>
+//             </section>
+//           </>
+//         );
+//       })}  */}
+//! NON-USED

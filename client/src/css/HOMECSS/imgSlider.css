@@ -1,263 +1,215 @@
 /** ----------------------------------------ImgSlider START------------------------------------------------ */
-.slider{
-    position: relative;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.image{
-    width: auto;
-    height: 500px;
-    border-radius: 10px;
+.image {
+  width: auto;
+  height: 500px;
+  border-radius: 10px;
 }
 
-.back-arrow{
-    position: absolute;
-    top: 50%;
-    left: 10rem;
-    font-size: 3rem;
-    color: #970003;
-    z-index: 10;
-    cursor: pointer;
-    user-select: none;
+.back-arrow {
+  position: absolute;
+  top: 50%;
+  left: 10rem;
+  font-size: 3rem;
+  color: #970003;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
 }
 
-.forward-arrow{
-    position: absolute;
-    top: 50%;
-    right: 10rem;
-    font-size: 3rem;
-    color: #970003;
-    z-index: 10;
-    cursor: pointer;
-    user-select: none;
+.forward-arrow {
+  position: absolute;
+  top: 50%;
+  right: 10rem;
+  font-size: 3rem;
+  color: #970003;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
 }
 
-.back-arrow:hover{
-    border-right: 3.5px solid #970003;
-    transition-duration: 300ms;
-    transform: translate(-7px);
+.back-arrow:hover {
+  border-right: 3.5px solid #970003;
+  transition-duration: 300ms;
+  transform: translate(-7px);
 }
 
-.forward-arrow:hover{
-    border-left: 3.5px solid #970003;
-    transition-duration: 300ms;
-    transform: translate(7px);
+.forward-arrow:hover {
+  border-left: 3.5px solid #970003;
+  transition-duration: 300ms;
+  transform: translate(7px);
 }
 
-.slide{
-    opacity: 0;
-    transition-duration: 1s ease;
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
 }
 
-.slide.active{
-    opacity: 1;
-    transition-duration: 1s ease;
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s ease;
 }
 /** ----------------------------------------ImgSlider END------------------------------------------------ */
 
+/** ----------------------------------------@Media Queries Start----------------------------------------- */
 
 @media screen and (max-width: 1024px) {
-    .slider img {
-        /* width: 64vw; */
-        width: auto;
-        height: 55vh;
-        
-    }
-    .back-arrow{
-        font-size: 55px;
-        left: 6rem;
-
-    }
-    .forward-arrow{
-        font-size: 55px;
-        right: 6rem;
-
-    }
-
+  .slider img {
+    /* width: 64vw; */
+    width: auto;
+    height: 55vh;
+  }
+  .back-arrow {
+    font-size: 55px;
+    left: 6rem;
+  }
+  .forward-arrow {
+    font-size: 55px;
+    right: 6rem;
+  }
 }
 
 @media screen and (max-width: 912px) {
-    .slider img {
-        width: 64vw;
-        height: 55vh;
-        
-    }
-    .back-arrow{
-        font-size: 60px;
-        left: 3rem;
-
-    }
-    .forward-arrow{
-        font-size: 60px;
-        right: 3rem;
-
-    }
-
+  .slider img {
+    width: 64vw;
+    height: 55vh;
+  }
+  .back-arrow {
+    font-size: 60px;
+    left: 3rem;
+  }
+  .forward-arrow {
+    font-size: 60px;
+    right: 3rem;
+  }
 }
 
-
-
 @media screen and (max-width: 820px) {
-    .slider img {
-        width: 64vw;
-        height: 55vh;
-        
-    }
-    .back-arrow{
-        left: 3rem;
-
-    }
-    .forward-arrow{
-        right: 3rem;
-
-    }
-
+  .slider img {
+    width: 64vw;
+    height: 55vh;
+  }
+  .back-arrow {
+    left: 3rem;
+  }
+  .forward-arrow {
+    right: 3rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .slider img {
-        width: 64vw;
-        height: 55vh;
-        
-    }
-    .back-arrow{
-        left: 3rem;
-
-    }
-    .forward-arrow{
-        right: 3rem;
-
-    }
-
+  .slider img {
+    width: 64vw;
+    height: 55vh;
+  }
+  .back-arrow {
+    left: 3rem;
+  }
+  .forward-arrow {
+    right: 3rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .slider img {
-        width: 64vw;
-        height: 55vh;
-        
-    }
-    .back-arrow{
-        font-size: 44px;
-        left: 2rem;
-
-    }
-    .forward-arrow{
-        font-size: 44px;
-        right: 2rem;
-
-    }
-
+  .slider img {
+    width: 64vw;
+    height: 55vh;
+  }
+  .back-arrow {
+    font-size: 44px;
+    left: 2rem;
+  }
+  .forward-arrow {
+    font-size: 44px;
+    right: 2rem;
+  }
 }
 
 @media screen and (max-width: 540px) {
-    .slider img {
-        width: 64vw;
-        height: 55vh;
-        
-    }
-    .back-arrow{
-        font-size: 44px;
-        left: 2rem;
-
-    }
-    .forward-arrow{
-        font-size: 44px;
-        right: 2rem;
-
-    }
-
+  .slider img {
+    width: 64vw;
+    height: 55vh;
+  }
+  .back-arrow {
+    font-size: 44px;
+    left: 2rem;
+  }
+  .forward-arrow {
+    font-size: 44px;
+    right: 2rem;
+  }
 }
-
-
 
 @media screen and (max-width: 414px) {
-    .slider img {
-        width: 64vw;
-        height: 55vh;
-        
-    }
-    .back-arrow{
-        left: 1rem;
-
-    }
-    .forward-arrow{
-        right: 1rem;
-
-    }
-
+  .slider img {
+    width: 64vw;
+    height: 55vh;
+  }
+  .back-arrow {
+    left: 1rem;
+  }
+  .forward-arrow {
+    right: 1rem;
+  }
 }
-
 
 @media screen and (max-width: 393px) {
-    .slider img {
-        width: 60vw;
-        height: 50vh;
-        
-    }
-    .back-arrow{
-        left: 1rem;
-
-    }
-    .forward-arrow{
-        right: 1rem;
-
-    }
-
+  .slider img {
+    width: 60vw;
+    height: 50vh;
+  }
+  .back-arrow {
+    left: 1rem;
+  }
+  .forward-arrow {
+    right: 1rem;
+  }
 }
 
-
-
 @media screen and (max-width: 390px) {
-    .slider img {
-        width: 60vw;
-        height: 50vh;
-        
-    }
-    .back-arrow{
-        left: 1rem;
-
-    }
-    .forward-arrow{
-        right: 1rem;
-
-    }
-
+  .slider img {
+    width: 60vw;
+    height: 50vh;
+  }
+  .back-arrow {
+    left: 1rem;
+  }
+  .forward-arrow {
+    right: 1rem;
+  }
 }
 
 @media screen and (max-width: 375px) {
-    .slider img {
-        width: 60vw;
-        height: 50vh;
-        
-    }
-    .back-arrow{
-        left: 1rem;
-
-    }
-    .forward-arrow{
-        right: 1rem;
-
-    }
-
+  .slider img {
+    width: 60vw;
+    height: 50vh;
+  }
+  .back-arrow {
+    left: 1rem;
+  }
+  .forward-arrow {
+    right: 1rem;
+  }
 }
 
 @media screen and (max-width: 280px) {
-    .slider img {
-        width: 60vw;
-        height: 50vh;
-        
-    }
-    .back-arrow{
-        left: 8px;
-
-    }
-    .forward-arrow{
-        right: 8px;
-
-    }
-
+  .slider img {
+    width: 60vw;
+    height: 50vh;
+  }
+  .back-arrow {
+    left: 8px;
+  }
+  .forward-arrow {
+    right: 8px;
+  }
 }
+
+/** ----------------------------------------@Media Queries END---------------------------------------- */
