@@ -135,3 +135,381 @@
 
 
 /** ----------------------------------------Products END------------------------------------------------ */
+
+@media screen and (max-width: 1024px){
+    .scroll-container{
+        margin-top: 155px;
+        height: 375px;
+    }
+
+    .scroll-container h1{
+        font-size: 30px;
+    }
+
+    .productsList{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto ;
+    
+    }
+    .searchBar{
+        height: 4vh;
+        width: 10%;
+        left: 76%;
+        top: 20.8%;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .filterBtns{
+        top: 21%;
+        left: 14%;
+        width: 28%;
+    }
+    .filterBtns button{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 912px){
+    .scroll-container{
+        margin-top: 310px;
+        height: 900px;
+    }
+
+    .scroll-container h1{
+        font-size: 40px;
+    }
+
+    .productsList{
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto ;
+    
+    }
+    .searchBar{
+        height: 2.5vh;
+        width: 10%;
+        left: 76%;
+        top: 18.8%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .filterBtns{
+        top: 19.5%;
+        left: 14%;
+        width: 38%;
+    }
+    .filterBtns button{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 820px){
+    .scroll-container{
+        margin-top: 220px;
+        height: 800px;
+    }
+
+    .scroll-container h1{
+        font-size: 40px;
+    }
+
+    .productsList{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto ;
+    
+    }
+    .searchBar{
+        height: 3vh;
+        width: 10%;
+        left: 76%;
+        top: 15%;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .filterBtns{
+        top: 16%;
+        left: 14%;
+        width: 40%;
+    }
+    .filterBtns button{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .scroll-container{
+        margin-top: 220px;
+        height: 650px;
+    }
+
+    .scroll-container h1{
+        font-size: 40px;
+    }
+
+    .productsList{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto ;
+    
+    }
+    .searchBar{
+        height: 3vh;
+        width: 11%;
+        left: 76%;
+        top: 17.8%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .filterBtns{
+        top: 18.5%;
+        left: 14%;
+        width: 45%;
+    }
+    .filterBtns button{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .scroll-container{
+        margin-top: 183px;
+        height: 455px;
+    }
+
+    .scroll-container h1{
+        font-size: 28px;
+    }
+
+    .productsList{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto ;
+    
+    }
+    .searchBar{
+        height: 3vh;
+        width: 11%;
+        left: 77%;
+        top: 21%;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .filterBtns{
+        top: 22%;
+        left: 14%;
+        width: 38%;
+    }
+    .filterBtns button{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .scroll-container{
+        margin-top: 220px;
+        height: 570px;
+    }
+
+    .scroll-container h1{
+        font-size: 28px;
+    }
+
+    .productsList{
+        grid-template-columns: auto;
+        grid-template-rows: auto ;
+    
+    }
+    .searchBar{
+        height: 3vh;
+        width: 17%;
+        left: 70%;
+        top: 20%;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .filterBtns{
+        top: 21%;
+        left: 14%;
+        width: 45%;
+    }
+    .filterBtns button{
+        font-size: 11px;
+    }
+}
+
+
+@media screen and (max-width: 393px){
+    .scroll-container{
+        margin-top: 212px;
+        height: 500px;
+    }
+
+    .scroll-container h1{
+        font-size: 28px;
+    }
+
+    .productsList{
+        grid-template-columns: auto;
+        grid-template-rows: auto ;
+    
+    }
+    .searchBar{
+        height: 3vh;
+        width: 16%;
+        left: 70%;
+        top: 21%;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .filterBtns{
+        top: 22%;
+        left: 14%;
+        width: 44%;
+    }
+    .filterBtns button{
+        font-size: 9.9px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .scroll-container{
+        margin-top: 212px;
+        height: 500px;
+    }
+
+    .scroll-container h1{
+        font-size: 28px;
+    }
+
+    .productsList{
+        grid-template-columns: auto;
+        grid-template-rows: auto ;
+    
+    }
+    .searchBar{
+        height: 3vh;
+        width: 16%;
+        left: 70%;
+        top: 21%;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .filterBtns{
+        top: 22%;
+        left: 14%;
+        width: 44%;
+    }
+    .filterBtns button{
+        font-size: 9px;
+    }
+}
+
+
+
+@media screen and (max-width: 375px){
+    .scroll-container{
+        margin-top: 170px;
+        height: 400px;
+    }
+
+    .scroll-container h1{
+        font-size: 28px;
+    }
+
+    .productsList{
+        grid-template-columns: auto;
+        grid-template-rows: auto ;
+    
+    }
+    .searchBar{
+        height: 3vh;
+        width: 16%;
+        left: 70%;
+        top: 21%;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .filterBtns{
+        top: 22%;
+        left: 14%;
+        width: 44%;
+    }
+    .filterBtns button{
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .scroll-container{
+        margin-top: 189px;
+        height: 455px;
+    }
+
+    .scroll-container h1{
+        font-size: 28px;
+    }
+
+    .productsList{
+        grid-template-columns: auto;
+        grid-template-rows: auto ;
+    
+    }
+    .searchBar{
+        height: 3vh;
+        width: 16%;
+        left: 70%;
+        top: 21%;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .filterBtns{
+        top: 22%;
+        left: 14%;
+        width: 43%;
+    }
+    .filterBtns button{
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .scroll-container{
+        margin-top: 160px;
+        height: 390px;
+    }
+
+    .scroll-container h1{
+        font-size: 28px;
+    }
+
+    .productsList{
+        grid-template-columns: auto;
+        grid-template-rows: auto ;
+    
+    }
+    .searchBar{
+        height: 3vh;
+        width: 16%;
+        left: 70%;
+        top: 21%;
+        font-size: 8px;
+        font-weight: bold;
+    }
+
+    .filterBtns{
+        top: 22%;
+        left: 14%;
+        width: 45%;
+    }
+    .filterBtns button{
+        font-size: 7px;
+    }
+}

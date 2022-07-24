@@ -78,6 +78,25 @@
   }
    /** ----------------------------------------Navigation END------------------------------------------------ */
 
+
+@media (min-width: 1024px){
+  .link1{
+    position: fixed;
+  }
+  .linkMid{
+    position: fixed;
+  }
+  .link2{
+    position: fixed;
+  }
+  .link3{
+    position: fixed;
+  }
+  .link4{
+    position: fixed;
+  }
+}
+
 @media screen and (max-width: 912px) {
     .linkMid{
       top: 120px;
@@ -86,6 +105,22 @@
 }
     .nav_Links{
       font-size: 38px;
+    }
+
+    .link1{
+      position: fixed;
+    }
+    .linkMid{
+      position: fixed;
+    }
+    .link2{
+      position: fixed;
+    }
+    .link3{
+      position: fixed;
+    }
+    .link4{
+      position: fixed;
     }
   
 }
@@ -100,6 +135,22 @@
 }
     .nav_Links{
       font-size: 33px;
+    }
+
+    .link1{
+      position: fixed;
+    }
+    .linkMid{
+      position: fixed;
+    }
+    .link2{
+      position: fixed;
+    }
+    .link3{
+      position: fixed;
+    }
+    .link4{
+      position: fixed;
     }
   
 }
@@ -136,7 +187,8 @@
 }
   .nav_Links{
     font-size: 20px;
-  }
+
+}
 
 }
 
@@ -152,6 +204,22 @@
     .nav_Links{
       font-size: 24px;
     }
+
+    .link1{
+      position: fixed;
+    }
+    .linkMid{
+      position: fixed;
+    }
+    .link2{
+      position: fixed;
+    }
+    .link3{
+      position: fixed;
+    }
+    .link4{
+      position: fixed;
+    }
   
 }
 
@@ -166,6 +234,22 @@
     .nav_Links{
       font-size: 24px;
     }
+
+    .link1{
+      position: fixed;
+    }
+    .linkMid{
+      position: fixed;
+    }
+    .link2{
+      position: fixed;
+    }
+    .link3{
+      position: fixed;
+    }
+    .link4{
+      position: fixed;
+    }
   
 }
 
@@ -178,6 +262,22 @@
 }
     .nav_Links{
       font-size: 24px;
+    }
+
+    .link1{
+      position: fixed;
+    }
+    .linkMid{
+      position: fixed;
+    }
+    .link2{
+      position: fixed;
+    }
+    .link3{
+      position: fixed;
+    }
+    .link4{
+      position: fixed;
     }
   
 }
@@ -192,6 +292,48 @@
 }
   .nav_Links{
     font-size: 20px;
+  }
+  .link1{
+    position: fixed;
+  }
+  .linkMid{
+    position: fixed;
+  }
+  .link2{
+    position: fixed;
+  }
+  .link3{
+    position: fixed;
+  }
+  .link4{
+    position: fixed;
+  }
+
+}
+
+@media screen and (max-width: 280px) {
+  .linkMid{
+    top: 60px;
+    font-size: 35px;
+
+}
+  .nav_Links{
+    font-size: 20px;
+  }
+  .link1{
+    position: fixed;
+  }
+  .linkMid{
+    position: fixed;
+  }
+  .link2{
+    position: fixed;
+  }
+  .link3{
+    position: fixed;
+  }
+  .link4{
+    position: fixed;
   }
 
 }
