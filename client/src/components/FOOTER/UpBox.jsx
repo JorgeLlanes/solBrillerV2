@@ -44,7 +44,7 @@ return (
 
 
 
-        {/* // icons in Footer */}
+        {/* // Icons in Footer */}
         <section className="icons">
             <a className="icon-links" id="facebook" href="https://www.facebook.com/"><FaFacebookF/></a>
             <a className="icon-links" id="instagram" href="https://www.instagram.com/?hl=en"><GrInstagram/></a>

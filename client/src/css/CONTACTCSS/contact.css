@@ -206,7 +206,7 @@
     .line{
         border-left: 6px solid rgb(255, 246, 235);
         height: 260px;
-        margin-left: 33px;
+        margin-right: 40px;
         margin-top: 50px;
     }
 
@@ -283,13 +283,9 @@
         border: none;
         border-bottom: 6px solid rgb(255, 246, 235);
         width: 748px;
-        margin-top: -18rem;
+        margin-top: -12rem;
         margin-left: 7rem;
         margin-bottom: 36px;
-    }
-
-    .sfH1{
-       /* display: none; */
     }
 
     .submitForm {
@@ -361,7 +357,7 @@
         border: none;
         border-bottom: 6px solid rgb(255, 246, 235);
         width: 748px;
-        margin-top: -18rem;
+        margin-top: -12rem;
         margin-left: 4.5rem;
         margin-bottom: 36px;
     }
@@ -439,7 +435,7 @@
         border: none;
         border-bottom: 6px solid rgb(255, 246, 235);
         width: 715px;
-        margin-top: -18rem;
+        margin-top: -12rem;
         margin-left: 4.5rem;
         margin-bottom: 36px;
     }
@@ -517,7 +513,7 @@
         border: none;
         border-bottom: 6px solid rgb(255, 246, 235);
         width: 459px;
-        margin-top: -18rem;
+        margin-top: -12rem;
         margin-left: 4.5rem;
         margin-bottom: 36px;
     }
@@ -595,7 +591,7 @@
         border: none;
         border-bottom: 6px solid rgb(255, 246, 235);
         width: 335px;
-        margin-top: -18rem;
+        margin-top: -12rem;
         margin-left: 4.5rem;
         margin-bottom: 36px;
     }
@@ -673,7 +669,7 @@
         border: none;
         border-bottom: 6px solid rgb(255, 246, 235);
         width: 313px;
-        margin-top: -18rem;
+        margin-top: -12rem;
         margin-left: 4.5rem;
         margin-bottom: 36px;
     }
@@ -751,7 +747,7 @@
         border: none;
         border-bottom: 6px solid rgb(255, 246, 235);
         width: 313px;
-        margin-top: -18rem;
+        margin-top: -12rem;
         margin-left: 4.5rem;
         margin-bottom: 36px;
     }
@@ -828,7 +824,7 @@
         border: none;
         border-bottom: 6px solid rgb(255, 246, 235);
         width: 310px;
-        margin-top: -18rem;
+        margin-top: -12rem;
         margin-left: 4.5rem;
         margin-bottom: 36px;
     }
@@ -905,7 +901,7 @@
         border: none;
         border-bottom: 6px solid rgb(255, 246, 235);
         width: 310px;
-        margin-top: -18rem;
+        margin-top: -12rem;
         margin-left: 4.5rem;
         margin-bottom: 36px;
     }
@@ -984,7 +980,7 @@
         border: none;
         border-bottom: 6px solid rgb(255, 246, 235);
         width: 310px;
-        margin-top: -18rem;
+        margin-top: -12rem;
         margin-left: 4rem;
         margin-bottom: 36px;
     }
