@@ -1,8 +1,8 @@
 // import React from 'react'
-import NavTop from '../HOME/NavTop'
+import NavTop from '../HOME/NavTop';
 import React, { useState, useEffect } from "react";
 import Axios from "axios";
-import Up from "../FOOTER/Up"
+import Up from "../FOOTER/Up";
 import UpBox from '../FOOTER/UpBox';
 
 
