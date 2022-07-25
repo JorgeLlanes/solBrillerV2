@@ -12,14 +12,15 @@ function About() {
      <section className='aboutMid'>
       <video src={vid2} autoPlay loop muted className='vid2'/>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptates quam distinctio dolore! Excepturi hic alias dolore dicta
-          consequatur, necessitatibus, maiores perferendis eum dignissimos explicabo non quas saepe, atque officiis.
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quas perspiciatis ea, reiciendis, consequatur corporis, 
-          libero expedita fugit quod officia velit amet quisquam itaque quidem labore tempore odio facere voluptates.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta suscipit, eveniet voluptas atque nihil quidem aspernatur aliquid libero 
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nam qui vitae iure, nisi necessitatibus sit quam veniam minima, 
-          sequi impedit corrupti id recusandae similique placeat aliquid, quisquam fuga quia.
-          temporibus vitae hic nisi modi soluta fuga ullam mollitia doloremque dignissimos blanditiis.
+          <span>Sol Briller</span>, founded by Jorge Llanes in 2022, is a design venture born out of Austin, Texas, 
+          balancing luxury techniques with streetwear elements, showcased as ready-to-wear collections.
+          Designed from a narrative standpoint Sol Briller is both a reflection of modern socioeconomics and personal 
+          stories as Llanes came to Texas. Now a reoccurring theme season-to-season, 
+          Sol Briller combines American iconography with nostalgic references, a visual commentary on Texas style and culture itself.
+          With no formal training specific to fashion design, llanes credits his understanding of specs and construction to growing up with a mother who was a maid, 
+          providing a foundation and understanding of how to build each piece and the subsequent stories told with each collection.
+          Sol Briller's journey parallels Llanes, chronicling the evolution of a man from adolescence to maturity, 
+          a narrative reflected each collections both the Creative Director and brand continues to grow-up with its ever-expanding fanbase.
         </p>
      </section>
      <Up>
@@ -35,4 +36,16 @@ export default About
 //! NON-USED
 // <video src={vid2} autoPlay loop muted className='vid2'/>
 //! NON-USED
+
+// {/* <p>
+// Sol Briller, founded by Jorge Llanes in 2022, is a design venture born out of Austin, Texas, 
+// balancing luxury techniques with streetwear elements, showcased as ready-to-wear collections.
+// Designed from a narrative standpoint Sol Briller is both a reflection of modern socioeconomics and personal 
+// stories as Llanes came to Texas. Now a reoccurring theme season-to-season, 
+// Sol Briller combines American iconography with nostalgic references, a visual commentary on Texas style and culture itself.
+// With no formal training specific to fashion design, llanes credits his understanding of specs and construction to growing up with a mother who was a maid, 
+// providing a foundation and understanding of how to build each piece and the subsequent stories told with each collection.
+// Sol Briller’s journey parallels Llanes, chronicling the evolution of a man from adolescence to maturity, a narrative reflected each collections both the Creative Director and brand continues to grow-up with its ever-expanding fanbase, 
+// culminating in the most recent debut presentation during Paris Men’s Fashion Week for the Spring/Summer 2022 Collection. 
+// </p> */}
 
