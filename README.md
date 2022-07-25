@@ -16,7 +16,7 @@
 * [Express.js](https://expressjs.com/) - Node.js framework used. 
 
 ### **Home page**
-![Screenshot (1)](./ss/Home.png)
+![Screenshot (1)](/ss/Home.png)
 
 ### **Products page**
 ![Screenshot (2)](./ss/Products.png)
