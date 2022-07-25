@@ -6,13 +6,6 @@ const cors = require("cors");
 require("dotenv").config();
 const port = process.env.PORT || 3001;
 
-// const db = mysql.createPool({
-//   host: "awstest.cct8a3ls518h.us-east-2.rds.amazonaws.com",
-//   user: "admin",
-//   password: "741203Jll!",
-//   database: "test",
-// });
-
 const db = mysql.createPool({
   host: process.env.HOST,
   user: process.env.USERNAME,
