@@ -17,7 +17,7 @@ function About() {
           Designed from a narrative standpoint Sol Briller is both a reflection of modern socioeconomics and personal 
           stories as Llanes came to Texas. Now a reoccurring theme season-to-season, 
           Sol Briller combines American iconography with nostalgic references, a visual commentary on Texas style and culture itself.
-          With no formal training specific to fashion design, llanes credits his understanding of specs and construction to growing up with a mother who was a maid, 
+          With no formal training specific to fashion design, Llanes credits his understanding of specs and construction to growing up with a mother who was a tailor, 
           providing a foundation and understanding of how to build each piece and the subsequent stories told with each collection.
           Sol Briller's journey parallels Llanes, chronicling the evolution of a man from adolescence to maturity, 
           a narrative reflected each collections both the Creative Director and brand continues to grow-up with its ever-expanding fanbase.
