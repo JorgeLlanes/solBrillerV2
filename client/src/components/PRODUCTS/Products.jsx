@@ -17,7 +17,7 @@ function Products() {
 
   // Products from MySQL👇🏼
   useEffect(() => {
-    Axios.get("http://localhost:3001/api/get").then((response) => {
+    Axios.get("https://solbrillerserver.herokuapp.com/api/get").then((response) => {
       setTestList(response.data);
     });
   },[]);
@@ -26,19 +26,20 @@ function Products() {
 
   // Filter API's
   const byAsc = () => {
-    Axios.get("http://localhost:3001/api/get2").then((response) => {
+    Axios.get("https://solbrillerserver.herokuapp.com/api/get2").then((response) => {
       setTestList(response.data);
     });
   };
 
   const byDesc = () => {
-    Axios.get("http://localhost:3001/api/get3").then((response) => {
+    Axios.get("https://solbrillerserver.herokuapp.com/api/get3").then((response) => {
       setTestList(response.data);
     });
   };
 
+
   const all = () => {
-    Axios.get("http://localhost:3001/api/get").then((response) => {
+    Axios.get("https://solbrillerserver.herokuapp.com/api/get").then((response) => {
       setTestList(response.data);
     });
   };
@@ -110,4 +111,24 @@ export default Products
 //           </>
 //         );
 //       })}  */}
+
+
+
+  // useEffect(() => {
+  //   Axios.get("http://localhost:3001/api/get").then((response) => {
+  //     setTestList(response.data);
+  //   });
+  // },[]);
+
+  // const byDesc = () => {
+  //   Axios.get("http://localhost:3001/api/get3").then((response) => {
+  //     setTestList(response.data);
+  //   });
+  // };
+
+  // const all = () => {
+  //   Axios.get("http://localhost:3001/api/get").then((response) => {
+  //     setTestList(response.data);
+  //   });
+  // };
 //! NON-USED
